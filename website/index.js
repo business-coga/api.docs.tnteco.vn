@@ -1,8 +1,9 @@
+require('dotenv').config()
 const
   express = require('express'),
   serveStatic = require('serve-static'),
   history = require('connect-history-api-fallback'),
-  port = 3000
+  port = process.env.PORT
 
 const fs = require('fs');
 
@@ -14,5 +15,5 @@ app.get('/ping', function (req, res) {
 })
 
 app.listen(port, () => {
-	console.log('HTTPS Server running on port '+port);
+	console.log(`Server running on http://api.docs.tnteco.vn:${port}`);
 });
