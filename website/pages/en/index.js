@@ -198,7 +198,7 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-        <meta httpEquiv="refresh" content="0; url=http://localhost:3000/docs/getting-started" />
+        <meta httpEquiv="refresh" content="0; url=/docs/getting-started" />
           <Features />
           <FeatureCallout />
           <LearnHow />
