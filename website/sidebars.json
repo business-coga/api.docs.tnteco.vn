@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Tài liệu": [
+      "getting-started","cus360"
+    ]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
